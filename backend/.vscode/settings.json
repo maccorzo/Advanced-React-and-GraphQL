@@ -2,5 +2,7 @@
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#338E5C",
     "titleBar.inactiveBackground": "#338E5C"
-  }
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
 }
