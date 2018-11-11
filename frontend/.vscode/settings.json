@@ -4,5 +4,7 @@
     "titleBar.inactiveForeground": "#000000CC",
     "titleBar.activeBackground": "#EF9A16",
     "titleBar.inactiveBackground": "#EF9A16CC"
-  }
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
 }
