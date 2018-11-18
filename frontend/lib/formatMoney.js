@@ -1,4 +1,4 @@
-export default function (amount) {
+export default function(amount) {
   const options = {
     style: 'currency',
     currency: 'EUR',
@@ -6,6 +6,6 @@ export default function (amount) {
   };
   // if its a whole, dollar amount, leave off the .00
   if (amount % 100 === 0) options.minimumFractionDigits = 0;
-  const formatter = new Intl.NumberFormat('fi-FI', options);
+  const formatter = new Intl.NumberFormat('en-EN', options);
   return formatter.format(amount / 100);
 }
